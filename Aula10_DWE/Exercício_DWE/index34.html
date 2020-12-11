@@ -1,0 +1,45 @@
+Usuário: <input type="text" id="box1" />
+Senha: <input type="password" id="box2" />
+<input type="submit" value="Entrar" onclick="acesso()" />
+
+<br/><br/><br/><br/><br/><br/><br/>
+<button onclick="logar()">Login</button>
+
+<script type="text/javascript">
+
+function acesso(){
+    var tent = 3;
+	do{
+		var usuario = document.getElementById("box1").value;
+		var senha = document.getElementById("box2").value;
+	
+		if(usuario == "aaa" && senha == "234"){
+			alert("Acesso permitido");
+			window.location.href= "home.php";
+			break;
+		}else{
+		    tent--;
+			alert("Acesso negado - Restaram "+tent+" tentativas");
+			//window.location.href= "index.html";
+		}
+	}while(tent != 0);
+}
+
+
+
+function logar(){
+	var tent = 3;
+	do{
+		var usr = window.prompt("Digite o seu usuário");
+		var senha = window.prompt("Digite sua senha");
+
+		if(usr == "aaa" && senha == "234"){
+			document.write("CORRETO!!!!");
+			break;
+		}else{
+			tent--;
+			alert("Restaram "+tent+" tentativas");
+		}
+	}while(tent != 0);	
+}
+</script>
