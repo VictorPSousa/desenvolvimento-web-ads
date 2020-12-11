@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>The BookStore</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<link rel="stylesheet" type="text/css" href="css/design.css"/>
+        <link rel="stylesheet" type="text/css" href="css/estilo.css"/>
+        <link rel="shortcut icon" type="image/x-icon" href="img/BS_favicon.png">
+        <meta charset="utf-8"/>
+        <script src="https://kit.fontawesome.com/b81b4db7d4.js" crossorigin="anonymous"></script>
+        <script src="js/projeto.js"></script>
+        <!-- ============== BootStrap ============== 
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> Este deu problema-->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </head>
+    <body>
+<!-- ============================ MENU ============================== -->        
+        <header>
+            <div class="navbar">
+                <img src="img/logo.png" class="marca"/>
+                <div id="btnmenu">
+                    <img src="img/hamburger.png" class="icon" onclick="Mostrar()"/>
+                </div>
+                <div id="menu" class="topnav">
+                    <ul>        
+                        <li><img src="img/logo_transparente.png" class="confimg"/></li>
+                        <li><a href='index.html' class="links fontletra">Início</a></li>
+                        <li><a href='paginas/categoria.html' class="links fontletra">Nossos Produtos</a></li>
+                        <li><a href='paginas/contato.html' class="links fontletra">Contato</a></li>
+                        <li class="lateral"><a href='paginas/login.html' class="links fontletra"><i class="fas fa-user"></i> Login</a></li>
+                        <li><a href='paginas/cadastro.html' class="links fontletra">Cadastro</a></li>
+                    </ul>       
+                </div>
+            </div>
+        </header> 
+        
+        <div id="principal">
+<!-- ========================= Slideshow ========================== -->
+            <div id="slideshow">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/banner.png" class="d-block w-100 img-banner" alt="...">
+                    </div>
+                    <!--
+                    <div class="carousel-item">
+                      <img src="img/evento1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/evento2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/evento4.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    -->
+                  </div>
+                </div>
+            </div>
+
+<!-- ====================== Divs de conteúdo ======================= -->
+            <div id="conteiner1">
+                <img src="img/livraria.jpg" class="imgformat" />
+            </div>
+            <div id="conteiner2">
+                <font-face class="fontconteudo"><h4>Quem somos?</h4>The BookStore é uma livraria de São Paulo que promove eventos culturais literários.</font-face>
+            </div>
+            <div id="conteiner3">
+				<font-face class="fontconteudo">Venham conhecer nossos espaços.</font-face>    
+            </div>
+            <div id="conteiner4">
+				<img src="img/livraria2.jpg" class="imgformat" />
+            </div>
+            <div class="intro">
+            <p>The BookStore é uma livraria com um conceito diferenciado. Levando em consideração os baixos índices de leitura e acesso a cultura do nosso país, a ideia é não apenas levar livros até as pessoas como uma mercadoria, mas criar um espaço no qual experiências literárias podem ser compartilhadas e eventos culturais de diferentes tipos possam ser realizados.</p> 
+            <p>Assim The BookStore se diferencia ao criar um ambiente de produção e efervescência cultural onde fãs e autores se encontram, clubes do livro se reúnem, adaptações de obras literárias são discutidas ou simplesmente um bom livro é lido em uma  confortável poltrona da nossa área de leitura.</p>
+            <p>Semanalmente, temos eventos variados acontecendo ao longo de todo o nosso horário de funcionamento que é das 8h às 20h todos os dias, sendo que aos domingos as atividades são voltadas ao público infanto-juvenil como contação de histórias, teatro de fantoches, entre outras.
+            </p>
+            </div>
+        </div>
+
+<div class="de"></div>
+
+
+
+
+
+
+<!-- ============================ RODAPÉ ============================== -->
+        <footer id="rodape">
+            <aside>
+                <div class="logotipo"><img src="img/logo_transparente.png" alt="The BookStore" title="The BookStore" class="logo" /></div>
+                <div class="social">
+                    <button><i class="fab fa-facebook-f"></i></button>
+                    <button><i class="fab fa-twitter"></i></button>
+                    <button><i class="fab fa-instagram"></i></button>
+                </div>
+            </aside>
+            <aside class="links">
+                <span class="rodape_titulo">Links</span>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="paginas/categoria.html">Categorias</a></li>
+                    <li><a href="paginas/contato.html">Contato</a></li>
+                    <li><a href="paginas/login.html">Login</a></li>
+                    <li><a href="paginas/cadastro.html">Cadastro</a></li>
+                    <li><a href="paginas/politica.html">Política e Termos de Uso</a></li>
+                </ul>
+            </aside>
+            <aside class="info">
+                <span class="rodape_titulo">Sobre Nós</span>
+                <p>The BookStore é uma das maiores livrarias de São Paulo, promovemos grandes eventos culturais literários.</p>
+            </aside>
+            <div class="copyright"><a href="#">Victor & Karol Design</a> | 2019 © Todos os Direitos Reservados.</div>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE/>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<link rel="stylesheet" type="text/css" href="../css/estilo.css"/>
+		<link rel="shortcut icon" type="image/x-icon" href="../img/BS_favicon.png">
+		<script src="https://kit.fontawesome.com/b81b4db7d4.js" crossorigin="anonymous"></script>
+		<title>BookStore - Cadastre-se</title>
+	</head>
+	<body>
+		<section id="body">
+
+			<!-- BOTÃO VOLTAR (falha c/ o Firefox)
+		        <nav class="social">
+				  <ul>
+				    <li><a href="contato.html">Voltar <i class="far fa-arrow-alt-circle-left"></i></a></li>
+				  </ul>
+				</nav>
+			-->
+
+			<div id="form_cadastro">
+				<div class="cx_titulo">
+					<span class="titulo">Cadastro</span>
+                </div>
+				<form name="form_cadastrando" method="post" action="../paginas_acao/cadastra.html">
+					<input type="text" id="nome" name="nome" class="forma perc" placeholder="Nome Completo*" maxlength="128" required/><br/>
+                    <input name="cpf" id="cpf" placeholder="CPF*" class="forma metade" required/>
+                    <input name="rg" id="rg" placeholder="RG*" class="forma metade" required/><br/>
+                    <input type="tel" name="cel" id="cel" placeholder="Celular*" class="forma metade" required/>
+                    <input type="tel" name="fone" id="fone" placeholder="Telefone Fixo" class="forma metade"/>
+                    <input type="email" name="email" id="email" placeholder="E-Mail*" class="forma" required/>
+                    <input type="email" name="conf_email" id="conf_email" placeholder="Confirme o E-Mail*" class="forma" required/>
+                    <input type="password" name="senha" id="senha" placeholder="Senha*" class="forma metade" required/>
+                    <input type="password" name="conf_senha" id="conf_senha" placeholder="Confirme a Senha*" class="forma metade" required/>
+                   <!--
+                    <select class="forma metade"  placeholder="Confirme a Senha*" required>
+                    	<option>Gênero*</option>
+                    	<option>Feminino</option>
+                    	<option>Masculino</option>
+                    	<option>Outro</option>
+                    </select>
+                    <input type="date" name="data_nasc" id="data_nasc" placeholder="Data de Nascimento*" class="forma metade" required/>
+                    -->
+                    <div class="risca"></div>
+		            <h3>Endereço</h3>
+					<input name="cep" id="cep" placeholder="CEP*" class="forma metade" required/>
+					<input name="estado" id="estado" placeholder="Estado*" class="forma metade" data-autocomplete-state required/><br/>	
+					<div class="line">
+                    	<span class="micro"><a href="http://www.buscacep.correios.com.br/sistemas/buscacep/" target="_blank">Não sei meu CEP</a></span>
+					</div>
+					<input type="number" name="numero" id="numero" placeholder="Número*" class="forma metade" required/>
+					<input name="complemento" id="complemento" placeholder="Complemento" class="forma metade"/><br/>
+					<textarea name="referencia" id="referencia" placeholder="Ponto de Referência" class="forma subject perc"></textarea><br/>
+					<input name="bairro" id="bairro" placeholder="Bairro*" class="forma metade"data-autocomplete-neighborhood required/>
+					<input name="cidade" id="cidade" placeholder="Cidade*" class="forma metade" data-autocomplete-city required/><br/>
+					<input name="endereco" id="endereco" placeholder="Rua*" class="forma perc" data-autocomplete-address required/><br/>
+					<div class="risca"></div>
+					<div class="obrigatorio">* Campo Obrigatório.</div><br/>
+					<div class="termos">
+						<input type="checkbox" name="poly" id="poly" class="poly" required/>
+                        <label for="poly">Li e concordo com os <a href="politica.html" target="_blank">Termos de Uso e a Política de Privacidade</a> da empresa.</label>
+					</div> 
+                    <div id="botoes">
+						<button type="reset" name="red" id="red" class="enviar redef">Redefinir</button> 
+						<button type="submit" name="cadastrar" id="cadastrar" class="enviar">Cadastrar</button>
+				    </div>
+				</form>
+			</div>
+		</section>
+		<!-- =============== Autocomplete do Endereço ================= -->
+		<script type="text/javascript" src="../js/jquery-3.4.1.min.js"></script>
+		<script type="text/javascript" src="../js/jquery.mask.min.js"></script>
+		<script type="text/javascript" src="../js/jquery.autocomplete-address.js"></script>
+		<script type="text/javascript" src="../js/funcoes.js"></script>
+	</body>
+</html>

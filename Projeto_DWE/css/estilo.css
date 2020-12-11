@@ -1,0 +1,1069 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+
+/* **** CORES ****
+    Cores - Material Design: https://www.materialui.co/colors
+	Ciano: #1DE9B6
+	Ciano-escuro: #00BFA5
+	Cinza-claro: #F5F5F5
+	Texto: #616161 ou #424242 ou #212121
+*/
+
+body{
+	margin:0;
+	padding:0;
+	font-family: 'Roboto', sans-serif, arial;
+}
+
+textarea{
+  resize: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* *********************** RESOLUÇÃO 2000px ******************* */
+
+@media screen and (max-width:2000px){
+
+	.container{
+		width: 80%;
+		margin:auto;
+        display: flex;
+        flex-direction: column;
+	}
+
+	.pl-banner{
+		text-align: center;
+		width: 100%;
+		height: auto;
+		margin-bottom: 3%;
+		cursor: pointer;
+	}
+
+	div.intro{
+		border-top:2px solid #1DE9B6;
+		width:70%;
+		margin: auto;
+		text-align: justify;
+	}
+
+	.pl-banner img{
+		border-radius: 4px;
+		width: 90%;
+		height: auto;
+		opacity: 1;
+		transition: .5s ease;
+		backface-visibility: hidden;
+	}
+
+	.pl-banner img:hover{
+        opacity: 0.8;
+    }
+	
+	div.salva{
+		display: none;
+	}
+
+    #rodape img.logo{
+    	width: 60%;
+    }
+
+    .ctnFlex{
+        display: flex;
+        justify-content: space-between;
+    }
+
+	.wrap {
+		flex-wrap: wrap-reverse;
+	}
+
+    div.op1 {
+        width: 50%;
+        display: inline-block;
+        font-size: 3vw;
+        text-align: center;
+        padding: 5vw 0vw 5vw 0vw;
+        min-width:40vw;
+        flex: 1;
+    }
+
+    div.op2 {
+        width: 50%;
+        display: inline-block;
+        margin-right: 0vw;
+        font-size: 3vw;
+        text-align: center;
+        padding: 5vw 0vw 5vw 0vw;
+        min-width:40vw;
+        flex: 1;
+    }
+
+    .grifo{
+    	border-bottom: 3px solid #1DE9B6;
+    }
+	
+	#principal{
+		width:75%;
+		position:relative;
+		margin:auto;
+		margin-bottom: 4%;
+	}
+
+	#principal p{
+		text-indent: 2%;
+	}
+	
+	#formulario{
+		position:relative;
+		width:50%;
+		top:-350px;
+		left:50%;
+		text-align:center;
+	}
+	
+	#mapa{
+		position:relative;
+		width:50%;
+		text-align:center;
+	}
+
+	.mapa{
+		width: 100%;
+		height: 435px;
+		border-radius: 4px;
+	}
+	
+	.forma{
+		padding:10px;
+		font-size:16px;
+		border:1px solid #bbb;
+		border-radius:3.5px;
+		margin-bottom:3%;
+	}
+	
+	.subject{
+		font-family:arial;
+		width:93%;
+		margin-left:5px;
+		margin-right:5px;
+	}
+	
+	.perc{
+		width:44%;
+	}
+
+	.esp{
+		margin-bottom: 4.9%;
+	}
+	
+	.enviar{
+		padding:10px 20px;
+		border:none;
+		border-radius:3.5px;
+		background-color:#1DE9B6;
+		color:#FFF;
+		font-size:16x;
+		transition:0.4s;
+		margin-bottom:3%;
+		text-transform:uppercase;
+		font-weight:600;
+	}
+	
+	.enviar:hover{
+		-webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+		-moz-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+		-ms-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+		-o-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+		box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+		cursor:pointer;
+		background-color:#00BFA5;
+	}
+	
+	.titulo{
+		text-align:center;
+		font-size:32px;
+		padding-top:3.5%;
+	}
+
+	/* ============================ Inicia FOOTER ================================= */
+    
+    #rodape{
+        width:100%;
+        background-color:#ECEFF1;
+        padding-top: 5px;
+        padding-bottom: 10px;
+        border-bottom: solid medium #1DE9B6;
+        color: #616161;
+        flex-wrap: wrap;
+        text-align: justify;
+        /*margin-top: 4%;*/
+    }
+    
+    .copyright{
+    	width: 100%;
+		text-align: center;
+		padding-bottom: 2px;
+    }
+    
+    .logotipo{
+        font-size: 46px;
+        font-weight: 600;
+        color: #616161;
+        margin-top: 5%;
+        margin-bottom: 3.5%;
+        margin-left: 6%;
+    }
+    
+    aside{
+        float: left;
+		display: inline-block;
+        width: 33%;
+        height: 200px;
+		margin-top: 2.5%;
+		padding-bottom: 6px;
+		margin-bottom: 13px;
+		border-bottom: 1px solid #ccc;
+    }
+
+    .justificado{
+    	text-align: justify;
+    }
+
+    .rodape_titulo{
+    	font-weight: 600;
+    	font-size: 24px;
+    	border-bottom: 3px solid #1DE9B6;
+    }
+    
+    .social{
+        margin-left: 15%;
+    }
+    
+    .social button{
+        border-radius: 50%; 
+        border:0;
+        width: 40px;
+        height: 40px;
+        font-size: 18px;
+        cursor:pointer;
+        margin-left: 2.5%;
+        transition: 0.6s;
+        color: #1DE9B6;
+        background-color: #fefefe; 
+    }
+    
+    .social button:hover{
+        background-color: #00BFA5;
+        color: #fefefe;
+        animation: animacao 2s ease-in-out 0s 1 normal;
+    }
+    
+    .info p{
+        width:70%;
+    }
+    
+    #rodape ul{
+        list-style-type: none;
+        margin-left: -8%;
+    }
+    
+    #rodape ul a{
+        text-decoration: none;
+    }
+    
+    #rodape ul li{
+        padding-top: 5px;
+    }
+    
+    .copyright a{
+        color:#00B8D4;
+    }
+    
+    a{
+        color: #616161;
+    }
+    
+    .login{
+        margin-top: 400px;
+    }
+    
+    /* ============================ Finaliza FOOTER ================================= */
+
+    #corpo{
+        background-color: #f5f5f5;
+        text-align: center;
+        width: 100%;
+		height: 100%;
+		padding-top: 10%;
+		padding-bottom: 9%;
+    }
+    
+    #form_login{
+        position: relative;
+        top: 20%;
+        background-color: #fff;
+        width:350px;
+        border:1px solid #bbb;
+		border-radius: 4px;
+		margin:auto;
+    }
+    
+    #form_login input.ent{
+        width: 80%;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    #form_login i{
+        color: #616161;
+    }
+    
+    #form_login .enviar{
+        background: rgb(2,0,36);
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,191,165,1) 0%, rgba(0,212,255,0.7301295518207283) 100%);
+        margin-top: 7%; 
+        border-radius: 25px;
+        width: 60%;
+        z-index: 3;
+    }
+
+    #form_login button.enviar:hover:before{
+        filter: blur(2px);
+        z-index: 2;
+        opacity: 1;
+    }
+    
+    .cadastro{
+        margin-top: 30px;
+    }
+    
+    #form_login a.cad{
+        font-weight: bolder;
+        padding-bottom: 26px;
+        color: #00BFA5;
+        transition: 0.6s;
+    }
+    
+    #form_login a.cad:hover{
+        color: #00B8D4;
+        text-decoration: underline;
+    }
+
+    .linha{
+    	width: 100%;
+    	margin-top: 3%;
+    	margin-bottom: 3%;
+    }
+
+	.linha input{
+		position: relative;
+		left:-13px;
+		z-index: 1;
+		opacity: 0;
+		cursor: pointer;
+		height: 0;
+		width: 0;
+	}
+		
+	.marca {
+		position: absolute;
+		top: 233.4px;
+		left: 90px;
+		height: 25px;
+		width: 25px;
+		background-color: #eee;
+		border-radius: 6px;
+		transition:0.6s;
+	}
+
+	.linha:hover input ~ .marca {
+	    background-color: #ccc;
+	}
+
+	.linha input:checked ~ .marca {
+	    background-color: #1DE9B6;
+	}
+
+	.marca:after {
+	    content: "";
+	    position: relative;
+	    display: none;
+	}
+
+	.linha input:checked ~ .marca:after {
+	    display: block;
+	}
+
+	.linha .marca:after {
+	    left: 9px;
+	    top: 5px;
+	    width: 5px;
+	    height: 10px;
+	    border: solid white;
+	    border-width: 0 3px 3px 0;
+	    -webkit-transform: rotate(45deg);
+	    -ms-transform: rotate(45deg);
+	    transform: rotate(45deg);
+	}
+
+	nav.social{
+	    position: absolute;
+	    top: 5%;
+	}
+
+	nav.social ul{
+	    padding: 0px;
+	    -webkit-transform: translate(-270px, 0);
+	    -moz-transform: translate(-270px, 0);
+	    -ms-transform: translate(-270px, 0);
+	    -o-transform: translate(-270px, 0);
+	    transform: translate(-270px, 0);
+	}
+
+	nav.social ul li{
+	    display: block;
+	    margin: 5px;
+	    background: rgb(29,233,182, 0.3);
+	    width: 300px;
+	    text-align: right;
+	    padding: 10px;
+	    -webkit-border-radius: 0 30px 30px 0;
+	    -moz-border-radius: 0 30px 30px 0;
+	    border-radius: 0 30px 30px 0;
+	    -webkit-transition: all 1s;
+	    -moz-transition: all 1s;
+	    -ms-transition: all 1s;
+	    -o-transition: all 1s;
+	    transition: all 1s;
+	    font-weight: bold;
+	}
+
+	nav.social ul li:hover{
+	    -webkit-transform: translate(110px, 0);
+	    -moz-transform: translate(110px, 0);
+	    -ms-transform: translate(110px, 0);
+	    -o-transform: translate(110px, 0);
+	    transform: translate(110px, 0);
+	}
+
+	nav.social ul li:hover a{
+	    color: #000;
+	}
+
+	nav.social ul li:hover i{
+	    color: #fff;
+	    background: #1DE9B6;
+	    -webkit-transition: all 1s;
+	    -moz-transition: all 1s;
+	    -ms-transition: all 1s;
+	    -o-transition: all 1s;
+	    transition: all 1s;
+	    box-shadow: 2px 3.5px 3px rgba(0,0,0,0.3);
+	}
+
+	nav.social ul li i{
+		margin-left: 10px;
+		color: #1DE9B6;
+		background: #fff;
+		padding: 10px;
+       -webkit-border-radius: 50%;
+		-moz-border-radius: 50%;
+		border-radius: 50%;
+		width: 20px;
+		height: 20px;
+		font-size: 20px;
+		background: #ffffff;
+		-webkit-transform: rotate(0deg);
+		-moz-transform: rotate(0deg);
+		-ms-transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+
+    .risca{
+    	width: 100%;
+    	height: 1px;
+    	background-color: #ccc; 
+    	margin-top:  1%;
+    	margin-bottom:  1%;
+    }
+
+	#form_cadastro{
+		position: relative;
+		top:9%;
+		width: 60%;
+		margin: auto;
+        background-color: #fff;
+        border:1px solid #bbb;
+		border-radius: 4px;
+	}
+
+	#form_cadastro span.titulo{
+		border-bottom: 3px solid #1DE9B6;
+	}
+
+	#form_cadastro input{
+		width: 80%;
+	}
+
+	#form_cadastro textarea{
+        width: 80%;
+	}
+
+	.metade{
+		width: 40% !important;
+	}
+
+	.redef{
+		background-color: #f44336; 
+		margin-right: 2%;
+	}
+
+	.redef:hover{
+		background-color: #d32f2f;
+	}
+
+	.disabled{
+		background-color: #e5e5e5;
+		color: rgb(102,102,102);
+		cursor: not-allowed;
+	}
+
+	.micro{
+		font-size: 12px;
+	}
+
+	.obrigatorio{
+		position: relative;
+		left: 0;
+		width: 35%;
+		padding-top: 1.2%;
+		color: #212121;
+	}
+
+	#body{
+		padding-top: 5%;
+		padding-bottom: 5%;
+        background-color: #f5f5f5;
+        text-align: center;
+        width: 100%;
+    }
+
+    .line{
+    	position: relative;
+    	top: -15px;
+    	height: 16px;
+    	width:35%;
+    	z-index:2;
+    }
+
+    .termos a{
+    	color: #00B8D4;
+    }
+
+
+	.termos input[type="checkbox"] {
+	    opacity: 0;
+	}
+
+	.termos label {
+	    position: relative;
+	    display: inline-block;
+	    padding-left: 29px;
+	 }
+
+	.termos label::before,
+	.termos label::after {
+	    position: absolute;
+	    content: "";
+	    display: inline-block;
+	}
+
+	.termos label::before{
+	    height: 25px;
+	    width: 25px;
+	    left: 0px;
+	    top: -4px;
+		background-color: #eee;
+		border-radius: 6px;
+		transition:0.6s;
+	}
+
+	.termos label::after {
+	    height: 6px;
+	    width: 11px;
+	    border-left: 2px solid #fff;
+	    border-bottom: 2px solid #fff;
+	    transform: rotate(-45deg);
+	    left: 6px;
+	    top: 4.5px;
+	}
+
+	.termos input[type="checkbox"] + label::after {
+	    content: none;
+	}
+
+	.termos input[type="checkbox"]:checked + label::after {
+	    content: "";
+	}
+
+	.termos input[type="checkbox"]:focus + label::before {
+	    background-color: #1DE9B6;
+	}
+
+	#botoes{
+		width: 100%;
+		margin-top: 2.5%;
+	}
+
+	.cx_titulo{
+		margin-bottom: 3%;
+		margin-top: 3%;
+	}
+
+	#navigation{
+		font-family: 'Roboto Mono', monospace;
+		width: 100%;
+		background-color: #616161;
+		height: 75px;
+		font-size: 18px;
+	}
+
+	.cxa_nav{
+		color: #FFF;
+		padding-top: 24.5px;
+		padding-left: 24.5px;
+	}
+
+	.cxa_nav a{
+		color:#E0E0E0;
+		font-weight: 500;
+	}
+
+	div.mapinha{
+		display: none;
+	}
+
+	
+}
+
+/* *********************** RESOLUÇÃO 1100px ******************* */
+
+@media screen and (max-width:1100px){
+	
+	#principal{
+		width:80%;
+		position:relative;
+		margin:auto;
+	}
+
+	.perc{
+		width:43%;
+	}
+
+	div.intro{
+		margin-top: 15%;
+	}
+
+	#body{
+		padding-top: 7%;
+		padding-bottom: 7%;
+    }
+
+    #form_cadastro{
+    	margin-top: 5%;
+		width: 80%;
+	}
+
+	#botoes{
+		margin-top: 3%;
+	}
+
+	.container{
+		width: 90%;
+    }
+	
+}
+
+/* *********************** RESOLUÇÃO 770px ******************* */
+
+@media screen and (max-width:770px){
+	
+	#principal{
+		width: 88%;
+		position:relative;
+		margin:auto;
+		padding-top: 13%;
+	}
+
+	.container{
+		padding-top: 9%;
+	}
+
+	.logotipo{
+		margin-left: 0%;
+		margin-top: 9%;
+	}
+
+	.social{
+        margin-left: 0%;
+    }
+
+    .social button{
+        margin-left: 0%;
+    }
+
+    .social button.espaco{
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+	div.op1{
+		display: none;
+	}
+
+	div.mapinha{
+		display: block;
+		width: 100%;
+	}
+
+	div.mapinha iframe{
+		height: 300px;
+	}
+
+	.perc{
+		width:93%;
+	}
+
+	.esp{
+		margin-bottom: 3%;
+	}
+	
+	#mapa{
+		width:100%;
+		top:425px;
+	}
+	
+	#formulario{
+		width:100%;
+		margin-left:-50%;
+	}
+
+	#form_login{
+        top: 15%;
+    }
+
+    nav.social ul{
+	    padding: 0px;
+	    -webkit-transform: translate(-255px, 0);
+	    -moz-transform: translate(-255px, 0);
+	    -ms-transform: translate(-255px, 0);
+	    -o-transform: translate(-255px, 0);
+	    transform: translate(-255px, 0);
+	}
+
+	#form_cadastro{
+    	margin-top: 12%;
+		width: 90%;
+	}
+
+	#botoes{
+		margin-top: 4.5%;
+	}
+
+	.cx_titulo{
+		margin-bottom: 5%;
+	}
+
+	.obrigatorio{
+		width: 40%;
+		padding-top: 1.6%;
+	}
+
+	.line{
+    	top: -11px;
+    	height: 16px;
+    	width:40%;
+    }
+
+    .termos{
+    	margin: auto;
+    	width: 70%;
+    }
+
+    #principal p{
+		text-indent: 4%;
+	}
+
+	#rodape{
+		text-align: center;
+	}
+
+	#rodape aside{
+		padding: 0;
+		margin: 0;
+		width: 100%;
+		border:none;
+	}
+
+	#rodape aside.info p{
+		padding-top: 4%;
+		text-align: center;
+		margin: auto;
+	}
+
+	.logotipo{
+		margin-top: 3%;
+	}
+
+	#rodape .social{
+		margin-top: -1%;
+	}
+
+	#rodape ul{
+        margin-left: -5.5%;
+    }
+
+    #rodape aside.links{
+    	margin-bottom: 5%;
+    	margin-top: 7%;
+    }
+
+    #principal .pagination{
+    	height: 80px;
+    }
+
+    #principal .pagination ul li{
+	  margin-right: 2%;
+	  padding: 2%;
+	}
+	
+}
+
+/* *********************** RESOLUÇÃO 500px ******************* */
+
+@media screen and (max-width:500px){
+
+	.pl-banner{
+		margin-top: 3%;
+	}
+
+	#principal{
+		width:90%;
+		background-color:#fff;
+		position:relative;
+		margin:auto;
+	}
+
+	div.mapinha iframe{
+		height: 255px;
+	}
+
+	#form_login{
+        width: 80%;
+	}
+	
+	#form_login .linha{
+        display:none;
+	}
+	
+	#form_login i{
+        display:none;
+    }
+
+	.perc{
+		margin-left: 1%;
+	}
+	
+	#mapa{
+		width:100%;
+		top:0%;
+	}
+	
+	#formulario{
+		width:100%;
+		margin-left:-50%;
+		top:60px;
+	}
+
+	nav.social {
+	    position: absolute;
+	    top: 1%;
+	}
+
+	#form_cadastro{
+		width: 100%;
+		top: 50px;
+		margin: auto;
+        background-color: #fff;
+        border: none;
+	}
+
+	#form_cadastro input{
+		margin-top: 7px;
+	}
+
+	#body{
+		background-color: #FFF;
+		border-bottom: 4px solid #1DE9B6;
+        border-top: 4px solid #1DE9B6;
+	}
+
+	.metade{
+		width: 80% !important;
+	}
+
+	#botoes{
+		margin-top: 6%;
+		margin-bottom: 7%;
+	}
+
+	.cx_titulo{
+		margin-bottom: 7%;
+	}
+
+	.obrigatorio{
+		width: 50%;
+		padding-top: 2%;
+	}
+
+	.line{
+    	top: -8px;
+    	height: 16px;
+    	width:41%;
+    }
+
+    .termos{
+    	width: 90%;
+    }
+
+    #navigation{
+		height: 80px;
+	}
+
+	#rodape ul{
+        margin-left: -9%;
+    }
+
+    #rodape aside.info p{
+		margin: auto;
+	}
+
+	.links span{
+		margin-left: -2%;
+	}
+
+	#rodape ul{
+        margin-left: -8%;
+    }
+
+    #rodape aside.info{
+    	margin-top: 11%;
+    }
+
+    #rodape aside.links{
+    	margin-top: -3%;
+    }
+
+    #rodape aside.info p{
+    	margin-top: 3%;
+	}
+	
+	#corpo{
+		background-color: #FFF;
+	}
+
+	#form_login{
+		border: none;
+	}
+
+	.wrapper .panel .cartao .cartao-rodape button.compra{
+		position: relative;
+		margin-top: 2%;
+	}
+
+	#principal .pagination{
+	  margin-top: 7%;
+	}
+	
+}
+
+/* *********************** RESOLUÇÃO 400px ******************* */
+
+@media screen and (max-width:400px){
+
+	#navigation{
+		height: 85px;
+	}
+
+	.wrapper .panel .cartao .cartao-rodape button.compra{
+		margin-top: 8%;
+	}
+	
+	#principal{
+		width:90%;
+		position:relative;
+		margin:auto;
+	}
+
+	#principal p{
+		font-size: 18px;
+	}
+
+	#principal h2{
+		font-size: 26px;
+	}
+
+	.ajs{
+		width:93% !important;
+		margin-left: 1.7%;
+	}
+
+	.perc{
+		width:97%;
+	}
+
+	#corpo{
+        background-color: #FFF;
+        border-bottom: 4px solid #1DE9B6;
+        border-top: 4px solid #1DE9B6;
+    }
+
+    #form_login{
+        border: none;
+    }
+
+    .marca {
+		top: 207px;
+		left: 88px;
+	}
+
+	.cx_titulo{
+		margin-top: 6%;
+	}
+
+	.obrigatorio{
+		width: 67.5%;
+		padding-top: 3%;
+	}
+
+	#botoes{
+		margin-top: 10.5%;
+		margin-bottom: 16%;
+	}
+
+	.line{
+		top: -4px;
+    	width:52%;
+    }
+
+    #rodape ul{
+        margin-left: -15%;
+    }
+
+    #principal .pagination .prox{
+	  margin-top: 2%;
+	}
+}

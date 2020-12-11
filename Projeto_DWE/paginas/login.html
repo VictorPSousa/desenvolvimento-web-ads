@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<link rel="stylesheet" type="text/css" href="../css/estilo.css"/>
+		<link rel="shortcut icon" type="image/x-icon" href="../img/BS_favicon.png">
+        <script src="https://kit.fontawesome.com/b81b4db7d4.js" crossorigin="anonymous"></script>
+		<title>BookStore - Login</title>
+	</head>
+	<body>
+		<section id="corpo">
+			<!-- BOTÃO VOLTAR (falha c/ o Firefox)
+			<nav class="social">
+			  <ul>
+			    <li><a href="contato.html">Voltar <i class="far fa-arrow-alt-circle-left"></i></a></li>
+			  </ul>
+			</nav>
+			-->
+			<form id="form_login" name="formulario_email" method="POST" action="../paginas_acao/logar.html">
+                <h1 class="titulo">Login</h1>
+				<i class="fas fa-user"></i><input type="text" id="login" name="login" class="forma perc ent" placeholder="Login" maxlength="128" required/><br/>
+				<i class="fas fa-key"></i><input type="password" id="senha" name="senha" class="forma perc ent" placeholder="Senha" maxlength="128" required/><br/>
+                <div class="linha"><input type="checkbox" name="lembrar" id="lembrar"/><span class="marca"></span><label for="lembrar">Lembrar de mim</label></div> 
+				<button type="submit" name="entrar" id="entrar" class="enviar">Entrar</button><br/>
+                <p class="cadastro">Ainda não tem uma conta? <a class="cad" href="cadastro.html">Cadastre-se</a></p>
+			</form>
+		</section>
+	</body>
+</html>

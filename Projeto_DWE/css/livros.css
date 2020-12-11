@@ -1,0 +1,130 @@
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  max-width: 940px;
+  margin: 0 20px;
+ /* display: grid;*/
+  grid-gap: 10px;
+}
+
+
+/* no grid support? */
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.wrapper {
+  display: grid;
+  margin: 0 auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  grid-auto-rows: minmax(150px, auto);
+}
+
+.panel {
+  /* needed for the flex layout*/
+  margin-left: 5px;
+  margin-right: 5px;
+  flex: 1 1 200px;
+}
+
+.tall-panel {
+  grid-row-end: span 2;
+}
+
+.wrapper > * {
+  background-color: #FFF;
+  color: #424242;
+  border-radius: 2px;
+  border: 1px solid #E0E0E0;
+  padding: 20px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+
+/* We need to set the margin used on flex items to 0 as we have gaps in grid.  */
+
+@supports (display: grid) {
+  .wrapper > * {
+    margin: 0;
+  }
+}
+
+/* ================ CARTÃO ===================== */
+
+.cartao{
+  height: 285px;
+}
+
+.img-produto{
+    text-align: center;
+}
+
+.img-produto img{
+  width: auto;
+  height: 145px;
+}
+
+.cartao-rodape{
+  border-top: 1.2px solid #00BFA5;
+  width: 100%;
+  padding: 0;
+  margin-top: 5%; 
+}
+
+.compra{
+  border: none;
+  border-radius: 5px;
+  background-color: #1DE9B6;
+  color: #FFF;
+  font-weight: bolder;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-top: 8%;
+  padding: 2% 4% 2.2% 4%;
+  transition: 0.6s;
+}
+
+.compra:hover{
+  background-color: #00BFA5;
+}
+
+.pagination{
+  position: relative;
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.pagination ul li{
+  float: left;
+  list-style-type: none;
+  margin-right: 5px;
+  padding: 1%;
+  color: #00BFA5;
+  border: 3px solid #00BFA5;
+  cursor: pointer;
+  border-radius: 50px;
+  transition: 0.6s;
+}
+
+.pagination ul li.number{
+  font-weight: bold;
+}
+
+.pagination ul li:hover{
+  color: #FFF;
+  border: 3px solid #00BFA5;
+  background-color: #00BFA5;
+}
