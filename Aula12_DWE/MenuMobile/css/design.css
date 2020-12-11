@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=McLaren&display=swap');
+
+@media screen and (max-width:1600px){
+	
+}
+
+@media screen and (max-width:400px){
+	/*divs*/
+	body{
+	margin:0px;
+	}
+	#banner1{
+		display:block;
+		width:100%;
+		height:65px;
+		background-color:#ccc;
+		position:fixed;
+		z-index:3;
+	}
+	
+	#divmenu{
+		width:50px;
+		height:55px;
+		border:1px solid #000;
+		position:absolute;
+		
+	}
+	#divbanner{
+		width:200px;
+		height:55px;
+	
+		position:absolute;
+		margin-left:55px;		
+	}
+	#divlupa{
+		width:30px;
+		height:25px;
+		position:absolute;
+		margin-left:278px;	
+		margin-top:17px;
+	}
+	#menum{
+		z-index:1;
+		-webkit-animation: divmenu 3s;
+		/*
+		-moz- (Forçar o funcionamento do estilo no browser - Mozilla)
+		-o- (Opera)
+		-ms- (Internet Explorer / Edge)
+		*/
+		display:none;
+		width:200px;
+		height:300px;
+		position:absolute;
+		background-color:#ccc;
+		margin-top:66px;
+	}
+	
+	#busca{
+		z-index:1;
+		-webkit-animation: busca 1s;
+		display:none;
+		width:200px;
+		height:40px;
+		position:absolute;
+		background-color:#ccc;
+		margin-top:66px;
+		padding:10px;
+        margin-left: 100px;
+	}
+    
+	@-webkit-keyframes divmenu{
+        from{ 
+			opacity: 0; 
+			margin-top: -40px;
+		}
+        to { 
+			opacity: 1;
+			margin-top: 66px;
+		}
+	}
+	
+	@-webkit-keyframes busca{
+        from{ 
+			margin-top: -250px;
+		}
+        to { 
+			margin-top: 66px;
+            margin-left: 100px;
+		}
+	}
+	
+	#corpo{
+		width:100%;
+		height:500px;
+		position:absolute;
+		margin-top:66px;
+		background-color:#22a;
+	}
+	
+	
+	
+	/*Imgens*/
+	.btmenu{
+		width:50px;
+		height:55px;
+		cursor:pointer;
+	}
+	.btbanner{
+		width:200px;
+		height:55px;
+		
+	}
+	.btlupa{
+		width:30px;
+		height:25px;		
+	}
+	.linha{
+		width:100%;
+		height:5px;
+		background-color:#f00;
+		margin-top:57px;
+		border: none;
+	}
+    
+    .txtpesquisa{
+        font-family: 'McLaren', cursive;
+    }
+	
+}
