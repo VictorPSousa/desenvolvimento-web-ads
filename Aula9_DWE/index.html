@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Aula 8, 9 ou 10</title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" type="text/css" href="css/estilo.css"/>
+        <script type="text/javascript" src="js/javinha.js"></script>
+    </head>
+    <body>
+        <div id="principal">
+            <div id="banner">
+                <a href="#">Home</a> |
+                <a href="#">Vendas</a> | 
+                <a href="#">Contatos</a>
+                Digite aqui...
+                <div id="caixao">
+                    <div id="cx1">
+                        <input type="text" id="busca" name="busca" class="tx1" value="" />
+                    </div>
+                    <div id="cx2">
+                        <button class="btn-busca"></button>
+                    </div>
+                </div>
+            </div>
+            <div id="corpo">
+                <h1 class="titulo">História</h1>
+                <hr/>
+                <p class="texto">Texto</p>
+                <h1 class="titulo">Calculadora de Indíce de Massa Corporal (IMC)</h1>
+                Seu nome: <br/>
+                <input type="text" id="nome">
+                <br/>
+                Altura: <br/>
+                <input type="number" id="altura">
+                <br/>
+                Peso: <br/>
+                <input type="number" id="peso">
+                <br/><br/>
+                <button onclick="imc()">Resultado</button>
+            </div>
+            <div id="rodape">
+                Valor 1: <br/>
+                <input type="text" id="cxa1">
+                <br/>
+                Valor 2: <br/>
+                <input type="text" id="cxa2">
+                <br/>
+                Resultado<br/>
+                <input type="text" id="res"/>
+                <button onclick="calcular()">Calcular</button>
+                
+                <!--<p class="fone">+55 (11) 98888-8888</p>-->
+            </div>
+        </div>
+    </body>
+</html>
