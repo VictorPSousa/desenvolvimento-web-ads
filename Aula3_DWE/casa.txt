@@ -1,0 +1,3 @@
+Lição de casa
+
+procurar mais 5 propriedades para a fonte. Além de font-family, color, font-size.

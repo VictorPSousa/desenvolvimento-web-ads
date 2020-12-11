@@ -1,0 +1,144 @@
+@media screen and (max-width:1200px){
+
+    body{
+        margin:0px;
+        background:url("../img/fundo.jpg");
+        background-size:100%;
+        background-attachment:fixed;
+        background-repeat:no-repeat;	
+    }
+    #banner{
+        width:80%;
+        height:200px;
+        background-color:#ccc;
+        position:relative;
+        margin:auto;
+    }
+    #slider{
+        width:70%;
+        height:400px;
+        background-color:#f00;
+        position:relative;
+        margin-left:10%;
+    }
+    #slider-nav{
+        display: none;
+    }
+    #menu{
+        width:34.4%;
+        height:400px;
+        background-color:#fff;
+        position:absolute;
+        margin-left:80%;
+		margin-right:-50%;
+    }
+    #corpo{
+        width:80%;
+        height:600px;
+        background-color:#ccc;
+        position:relative;
+        margin:auto;
+    }
+    #conteudo1{
+        width:70%;
+        height:300px;
+        background-color:#0f0;
+        position:absolute;
+        margin-left:5px;
+    }
+    #conteudo2{
+        width:70%;
+        height:300px;
+        background-color:#0f0;
+        position:absolute;
+        margin-left:5px;
+        margin-top:305px;
+    }
+    #lateral{
+        width:30%;
+        height:600px;
+        background-color:#00f;
+        position:absolute;
+        margin-left:70%;
+    }
+
+}
+
+@media screen and (max-width:900px){
+    #banner{
+        width:100%;
+        height:200px;
+        background-color:#ccc;
+        position:relative;
+        margin:auto;
+    }
+    #slider{
+        width:80%;
+        height:400px;
+        background-color:#f00;
+        position:relative;
+        margin:0;
+    }
+    #menu{
+        width:25%;
+        height:400px;
+        background-color:#fff;
+        position:absolute;
+        margin-left:100%;
+    }
+    #corpo{
+        width:100%;
+        height:100%;
+        background-color:#ccc;
+        position:relative;
+        margin:auto;
+    }
+    #conteudo1{
+        width:65%;
+        height:100%;
+        background-color:#0f0;
+        position:absolute;
+        margin-left:5px;
+    }
+    #conteudo2{
+        display:none;
+    }
+    #lateral{
+        width:30%;
+        height:100%;
+        background-color:#00f;
+        position:absolute;
+        margin-left:68%;
+    }
+}
+
+@media screen and (max-width:310px){
+    #menu{
+        display:none;
+    }
+    #corpo{
+        width:900px;
+        height:600px;
+        background-color:#ccc;
+        position:relative;
+        margin:auto;
+    }
+    #conteudo1{
+        width:600px;
+        height:300px;
+        background-color:#0f0;
+        position:absolute;
+        margin-left:5px;
+    }
+    #conteudo2{
+        display: none;
+    }
+    #lateral{
+        width:180px;
+        height:600px;
+        background-color:#000;
+        position:absolute;
+        margin-left:905px;
+    }
+
+}

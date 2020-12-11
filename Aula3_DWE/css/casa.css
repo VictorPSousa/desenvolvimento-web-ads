@@ -1,0 +1,87 @@
+/*
+position:fixed;
+Subir camadas dos elementos
+z-index:2;
+*/
+
+
+html{
+	scroll-behavior: smooth;
+}
+
+#principal{
+	top:0px;
+	width:1024px;
+	height:1000px;
+	margin:auto;
+	background-color:#4169E1;
+}
+
+#menu{
+	margin:auto;
+	position:relative;
+	margin-bottom:10px;
+	top:5px;
+	width:1014px;
+	height:40px;
+	background-color:#00CED1;
+}
+
+#banner{
+	margin:auto;
+	width:1014px;
+	height:400px;
+	background-image:url("../img/banner.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+#caixa1{
+	position:relative;
+	margin-left:5px;
+	margin-top:5px;
+	width:333px;
+	height:400px;
+	background-color:#FFF;
+	background-image:url("../img/mulher.jpeg");
+	background-repeat:no-repeat;
+	background-size:100%;
+}
+
+#caixa2{
+	position:relative;
+	margin-top:-400px;
+	margin-left:345px;
+	width:333px;
+	height:400px;
+	background-color:#FFF;
+	background-image:url("../img/homem.jpg");
+	background-repeat:no-repeat;
+	background-size:100%;
+}
+
+#caixa3{
+	position:relative;
+	margin-top:-400px;
+	margin-left:686px;
+	width:333px;
+	height:400px;
+	background-color:#FFF;
+	background-image:url("../img/crianca.jpg");
+	background-repeat:no-repeat;
+	background-size:100%;
+}
+
+#rodape{
+	margin:auto;
+	margin-top:5px;
+	width:1014px;
+	height:136px;
+	background-color:#FF4500;
+}
+
+.titulocx{
+	font-family:arial, verdana;
+	font-size:10px;
+	color:#00f;
+}

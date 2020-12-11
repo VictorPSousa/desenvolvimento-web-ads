@@ -1,0 +1,8 @@
+Estudar sobre:
+ Node;
+ Ionic;
+ React.
+
+hard-coded
+
+Pesquisa quantitativa: sobre as resoluções das telas dos celulares.

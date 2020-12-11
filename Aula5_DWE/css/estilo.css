@@ -1,0 +1,222 @@
+html{
+	scroll-bahavior:smooth;
+	padding:0;
+	left:0;
+	font-size:18px;
+	font-family:arial;
+	margin: 0;
+	border: none;
+}
+
+a{
+	text-decoration:none;
+}
+
+#corpo{
+	position:absolute;
+	height:100%;
+	width:100%;
+	margin:auto;
+	top:0;
+	left:0;
+	margin: 0;
+	border: none;
+}
+
+#navbar{
+	position:fixed;
+	top:0;
+	left:0;
+	background-color:#000;
+	width:100%;
+	color:#fff;
+	height:40px;
+	padding-top:10px;
+}
+
+h1.titulo{
+	position:absolute;
+	top:300px;
+	left:400px;
+	font-size:56px;
+}
+
+ul.menu li{
+	z-index:2;
+	position:relative;
+	top:-55px;
+	float:left;
+	display:block;
+	text-decoration:none;
+	padding-left:30px;
+}
+
+.menu a{
+	color:#fff;
+}
+
+.menu a:hover{
+	color:#FFC400;
+}
+
+img.logo{
+	top:0;
+	left:0;
+	margin-left:5px;
+	height:35px;
+}
+
+img.intro{
+	position:relative;
+	width:100%;
+}
+
+#footer{
+	background-color:#000;
+	color:#eee;
+	font-weight:100;
+	width:100%;
+	height:90px;
+	text-align:center;
+}
+
+p.copy{
+	padding-top:35px;
+}
+
+#info{
+	width:1024px;
+	margin:auto;
+	text-align:justify;
+	text-indent:5px;
+}
+
+#info h1{
+	font-size:42px;
+}
+
+.cor{
+	color:#FFC400;
+}
+
+.imagem{
+	width:50%;
+	border-radius:5px;
+	transition:0.6s;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.imagem:hover{
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.caixa{
+	padding:10px;
+	width:300px;
+	border-radius:5px;
+	background-color:#FAFAFA;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.img-caixa{
+	width:90%;
+	border-radius:5px;
+	margin-top:5px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.linha{
+	text-align:left;
+}
+
+.cx2{
+	margin-top:-485px;
+	margin-left:340px;
+}
+
+
+.cx3{
+	margin-top:-485px;
+	margin-left:680px;
+}
+
+#formulario{
+	text-align:center;
+	position:relative;
+	padding-top:3%;
+	left:0%;
+	width:50%;
+	margin:auto;
+	margin-top:10%;
+	margin-bottom:5%;
+}
+
+img.obg{
+	width:30%;
+	float: right;
+	margin-left:20px;
+}
+
+.ajuste{
+	margin-top:80px;
+	margin-left:50px;
+}
+
+#inicio p{
+	text-align:justify;
+	text-indent:5px;
+	margin-left:20px;
+}
+
+#conteudo{
+	width:1024px;
+	margin:auto;
+}
+
+#curiosidade{
+	width:1024px;
+	margin:auto;
+	margin-top:7%;
+}
+
+th{
+	background-color:#FFC400;
+	color:#000;
+}
+
+table{
+	text-align:center;
+	border-collapse: collapse;
+	margin:auto;
+}
+
+.citacao {
+	margin:10px;
+	margin-top:20px;
+	border-left-style:solid;
+	border-left-width:2px;
+	border-left-color:#FFC400;
+}
+
+cite{
+	margin-left:5%;
+}
+
+#lista{
+	margin-top:5%;
+}
+
+#lista ol li.num{
+	padding:20px;
+	font-size:22px;
+	font-weight:bolder;
+}
+
+.moeda{
+	text-align:center;
+	list-style-type:none;
+}

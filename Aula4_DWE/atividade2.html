@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Aula 4</title>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+	</head>
+	<body>
+		<div id="corpo">
+			<h1>Entrar</h1>
+			<center>
+				<label>User:</label><input type="text" name="usuario" size="50" /><br/>
+				<label>Senha:</label><input type="password" name="senha" size="25" />
+			</center>
+			<p><i>*Obs.:</i> Caso não seja um cliente favor se cadastrar!</p>
+			<h1 class="cnt">Cadastro de Pessoa Física</h1>
+			<table>
+				<tr>
+					<td><label>Nome:</label></td>
+					<td><input type="text" name="nome" size="30" maxlength="100"/></td>
+					<td><label>Profissão:</label></td>
+					<td><input type="text" name="profissao" size="30" maxlength="100"/></td>
+					<td><label>Endereço:</label></td>
+					<td><input type="text" name="endereco" size="30" maxlength="100"/></td>
+				</tr>
+				<tr>
+					<td><label>Bairro:</label></td>
+					<td><input type="text" name="bairro" size="30" maxlength="100"/></td>
+					<td><label>CEP:</label></td>
+					<td><input type="numeric" name="cep" size="10" maxlength="100"/></td>
+					<td><label>Cidade</label></td>
+					<td><input type="text" name="cidade" size="30" maxlength="100"/></td>
+				</tr>
+				<tr>
+					<td colspan="2"><label>Estado Civil:</label></td>
+					<td><input type="radio" name="cciv" value="casado">Casado</input></td>
+					<td><input type="radio" name="cciv" value="solteiro">Solteiro</input></td>
+					<td><input type="radio" name="cciv" value="divorciado">Divorciado</input></td>
+					<td><input type="radio" name="cciv" value="viuvo">Viúvo</input></td>
+				</tr>
+				<tr>
+					<td colspan="6"><hr size="5"/></td>
+				</tr>
+				<tr>
+					<td>
+						<label>Estado:</label>
+						<select name="estados">
+							<option value="sp">SP</option>
+							<option value="ac">AC</option>
+							<option value="rj">RJ</option>
+							<option value="mg">MG</option>
+							<option value="am">AM</option>
+							<option value="pb">PB</option>
+						</select>
+					</td>
+					<td><label>Telefone:</label></td>
+					<td><input type="number" name="fone" size="20" maxlength="100"/></td>
+					<td><label>E-mail</label></td>
+					<td><input type="email" name="email" size="20" maxlength="100"/></td>
+					<td>
+						<label>Fumante</label>
+						<input type="radio" name="cfum" value="sim">Sim</input>
+						<input type="radio" name="cfum" value="nao">Não</input>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">Documentos entregues</td>
+					<td><input type="checkbox" name="rg" value="rg">R.G.</input></td>
+					<td><input type="checkbox" name="cpf" value="cpf">C.P.F.</input></td>
+					<td><input type="checkbox" name="ctps" value="ctps">C.T.P.S.</input></td>
+				</tr>
+				<tr>
+					<td colspan="6"><hr size="5"/></td>
+				</tr>
+				<tr>
+					<td colspan="6"><h1 class="cnt">Observações:</h1></td>
+				</tr>
+				<tr>
+					<td colspan="6">
+						<textarea class="comentario" cols="50" rows="5">
+						</textarea>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="3"><input class="envio" type="submit" value="Enviar" /></td>
+					<td colspan="3"><input class="resetar" type="reset" value="Limpar" /></td>
+				</tr>
+			</table>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,45 @@
+#principal{
+	margin:auto;
+	height:1000px;
+	width:1200px;
+	border:1px solid black;
+	position:relative;
+}
+
+#dados{
+	position:absolute;
+	top:10px;
+	left:10px;
+	height:980px;
+	width:1070px;
+	background-color:#ccc;
+	}
+
+#cx1{
+		position:absolute;
+		top:10px;
+		left:1090px;
+		background-color:#F00;
+		width:100px;
+		height:100px;
+	}
+
+#cx2
+{
+	position:absolute;
+	top:120px;
+	left:1090px;
+	background-color:#0F0;
+	width:100px;
+	height:100px;
+}
+
+#cx3
+	{
+		position:absolute;
+		top:230px;
+		left:1090px;
+		background-color:#00F;
+		width:100px;
+		height:100px;
+	}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Aula 4</title>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" type="text/css" href="css/estilo.css" />
+	</head>
+	<body>
+	
+		<div id="principal">
+			<div id="dados">
+				<form name="dados" method="POST" action="cad.php">
+                    <label>Nome</label>
+                    <input type="text" class="cnome" name="cnome" size="100" maxlength="100" placeholder="Digite seu nome" required/><br/><br/>
+                    <label>Idade</label><input type="numeric" name="idade" placeholder="Digite sua idade" maxlength="3" size="100" required />
+                    <br/><br/>
+                    <label>Senha</label><input type="password" name="senha" placeholder="Digite sua Senha" maxlength="256" size="100" required />
+                    <br/><br/>
+                    Conhecimento:
+                    <input type="checkbox" name="ccon" value="windows">Windows</input>
+                    <input type="checkbox" name="ccon" value="linux">Linux</input>
+                    <input type="checkbox" name="ccon" value="ios">IOS</input>
+                    <br/><br/>
+                    Estado Civil:
+                    <input type="radio" name="cciv" value="casado">Casado</input>
+                    <input type="radio" name="cciv" value="solteiro">Solteiro</input>
+                    <input type="radio" name="cciv" value="divor">Divorciado</input>
+                    <br/><br/>
+                    <label>UF:</label>
+                    <select name="estados" required>
+                        <option value="" disabled>Selecione</option>
+                        <option value="sp">SP</option>
+                        <option value="ac">AC</option>
+                        <option value="rj">RJ</option>
+                        <option value="mg">MG</option>
+                        <option value="am">AM</option>
+                        <option value="pb">PB</option>
+                    </select>
+                    <br/><br/>
+                    <label>Comentário:</label>
+                    <textarea name="cmt" rows="5" cols="50">Digite aqui....</textarea>
+                    <br/><br/>
+                    <label>Qntd</label>
+                    <input type="number" max="10" min="1">
+                    <br/><br/>
+                    <input type="submit" value="Gravar" />
+                    <input type="reset" value="Limpar" />
+				</form> 
+			</div>
+			<div id="cx1"></div>
+			<div id="cx2"></div>
+			<div id="cx3"></div>
+		</div>
+	
+	</body>
+</html>

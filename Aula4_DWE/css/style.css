@@ -1,0 +1,35 @@
+#corpo{
+	margin:auto;
+    width:1200px;
+    height:1000px;
+    border:1px solid black;
+	padding:10px;
+}
+
+.cnt {
+    margin-left: auto;
+    margin-right: auto;
+    width: 11em;
+}
+
+table{
+	position:relative;
+	width:100%;
+	text-align:center;
+}
+
+.comentario{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.envio{
+	position:relative;
+	left:310px;
+}
+
+.resetar{
+	position:relative;
+	left:-230px;
+}

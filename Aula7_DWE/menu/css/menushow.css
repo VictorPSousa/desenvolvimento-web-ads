@@ -1,0 +1,67 @@
+@media screen and (max-width:1200px){
+    #banner ul{
+        list-style-type: none;
+        padding: 0px 0px;
+        font-family: arial,sans-serif;
+        font-size: 18px;
+    }
+    #banner ul li{
+        float: left;
+        padding: 10px;
+    }
+    #banner ul li a{
+        text-decoration: none;  
+        color:#fff;
+    }
+    #banner ul li a:hover{
+        color:#000;
+    }
+	img.logotipo{
+		width:120px;
+	}
+    #rodape{
+        font-family: segoe, "Segoe UI", Arial, sans-serif;
+        font-size: 13px;
+        font-weight: 400;
+        font-style:normal; 
+        color:#FFF;
+        background-color:#000;
+        height: 200px;
+    }
+    #rodape ul{
+        list-style-type: none;
+        padding: 0px 0px;
+        position: relative;
+        padding-top: 3.5%;
+        padding-left: 12%;
+    }
+    #rodape ul li{
+        float: left;
+        padding: 10px;
+        line-height:16px;
+    }
+    #rodape ul li a{
+        text-decoration: none;  
+        color:#fff;
+    }
+    #rodape ul li a:hover{
+        cursor:pointer;
+        text-decoration: underline;
+    }
+    .logo{
+        margin-right: 15%;
+        cursor:pointer;
+        font-weight: bolder;
+    }
+    .copyright{
+        margin-right: 5%;
+    }
+}
+
+@media screen and (max-width:900px){
+    
+}
+
+@media screen and (max-width:310px){
+
+}
