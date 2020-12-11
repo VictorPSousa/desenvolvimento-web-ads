@@ -1,0 +1,10 @@
+Estudar
+- Web Service (Servidor Web);
+HTML, CSS, PHP, ASP
+Apps, C# Winform, JAVA
+
+- API (Aplicação de interface - disponibilizar uma função do seu programa - ViaCEP)
+- Bibliotecas (CSSMenuMaker)
+- Framework: Conjunto de regras, linguagens, apis, estruturas
+
+css minifier (Reduzir o CSS)
