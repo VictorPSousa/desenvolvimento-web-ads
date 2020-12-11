@@ -1,4 +1,4 @@
-# codes_if
+# Codes Web IFSP
 
-Repositório com os códigos criados nas matérias de programação e desenvolvimento
+Códigos desenvolvidos nas principais matérias de programação e desenvolvimento
 dos cursos frequentados no IFSP Guarulhos.
